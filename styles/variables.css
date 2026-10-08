@@ -2,3 +2,44 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  /* --------- ширина макетов --------- */
+
+  --mobile-page-width: 375px;
+  --tablet-page-width: 768px;
+  --desctop-page-width: 1024px;
+  --page-width: var(--mobile-page-width);
+
+  /* --------- отступы --------- */
+
+  --mobile-page-padding: 10px;
+  --tablet-page-padding: 20px;
+  --desctop-page-padding: 20px;
+  --page-padding: var(--mobile-page-padding);
+
+  /* --------- шрифт --------- */
+
+  /* текст */
+  --font-size-normal: 18px;
+  --line-height-normal: 1.3;
+
+  /* главный заголовок */
+  --mobile-font-size-title: 116px;
+  --table-font-size-title: 120px;
+  --desctop-font-size-title: 157px;
+  --font-size-title: var(--mobile-font-size-title);
+
+  /* --------- цвет --------- */
+
+  --bg-color: #000028;
+  --accent-color: #ff0070;
+  --header-title-color: #db00ff;
+  --text-color: #f1b2ce;
+  --decor-color: var(--accent-color);
+  --title-color: var(--bg-color);
+  --rec-color: var(--accent-color);
+
+  /* --------- фон --------- */
+
+  --page-bg-image: url(../images/cover-image-dark.png);
+}
