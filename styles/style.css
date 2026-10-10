@@ -23,6 +23,7 @@
   font-size: var(--font-size-normal);
   line-height: var(--line-height-normal);
   background-color: var(--page-bg-color);
+  background-attachment: fixed;
   inline-size: var(--page-width);
 }
 
