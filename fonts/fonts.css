@@ -11,3 +11,23 @@
   font-weight: bold;
   font-display: swap;
 }
+
+/* JetBrains Mono. Распространяется под лицензией
+ * SIL Open Font License 1.1. Можно брать и для сайтов,
+ * и для десктопных приложений, и для печати. Скачать
+ * удобно прямо с https://www.jetbrains.com/ru-ru/lp/mono/?ysclid=mv2cw5w175285829900
+ * или из репозитория на GitHub
+ */
+@font-face {
+  font-family: 'Jet Brains Mono';
+  src: url(./JetBrainsMono/JetBrainsMono-Regular.woff2) format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jet Brains Mono';
+  src: url(./JetBrainsMono/JetBrainsMono-Bold.woff2) format('woff2');
+  font-weight: bold;
+  font-display: swap;
+}

@@ -28,18 +28,18 @@
   --table-font-size-title: 120px;
   --desctop-font-size-title: 157px;
   --font-size-title: var(--mobile-font-size-title);
+}
 
-  /* --------- цвет --------- */
+@media (768px <= width) {
+  :root {
+    --page-padding: var(--tablet-page-padding);
+    --page-width: var(--tablet-page-width);
+  }
+}
 
-  --bg-color: #000028;
-  --accent-color: #ff0070;
-  --header-title-color: #db00ff;
-  --text-color: #f1b2ce;
-  --decor-color: var(--accent-color);
-  --title-color: var(--bg-color);
-  --rec-color: var(--accent-color);
-
-  /* --------- фон --------- */
-
-  --page-bg-image: url(../images/cover-image-dark.png);
+@media (1024px <= width) {
+  :root {
+    --page-padding: var(--desctop-page-padding);
+    --page-width: var(--desctop-page-width);
+  }
 }
